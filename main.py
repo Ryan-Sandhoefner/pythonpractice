@@ -59,6 +59,13 @@ def topFiveHobbies():
      #print third Hobbie
      print("Playing games")
 
+#output a function that gives my name followed by "is my name"
+def myNameIs(Turtle):
+    #outpuyt string
+    print(Turtle + " Is My Name")
+
+#run function
+myNameIs("Ryan")
 
 print("These Are My Top Five Movies")
 topFiveMovies()
