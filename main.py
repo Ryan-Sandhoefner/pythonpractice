@@ -61,9 +61,30 @@ def topFiveHobbies():
 
 #output a function that gives my name followed by "is my name"
 def myNameIs(Turtle):
-    #outpuyt string
+    #output string
     print(Turtle + " Is My Name")
 
+#define function
+def timesTwo(x):
+    print(x * 2)
+
+#define function
+def plusFive(x):
+    print(x+5)
+
+#define function
+def madLib(place, adjective, name, noun_thing, dif_noun_thing, Action_verb, name_two):
+    print(place + "food is" + adjective + ". Hey" + name + ", Whats your favorite" + noun_thing + ". I like that too, but " + dif_noun_thing + "is better. " + "I like to" + Action_verb + "on the beach." + name_two + "moved away last week")
+
+
+#run madlib
+madLib()
+
+
+#run functions
+timesTwo(30)
+plusFive(5)
+divideByTwo(50)
 #run function
 myNameIs("Ryan")
 
