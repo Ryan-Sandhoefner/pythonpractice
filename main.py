@@ -73,12 +73,11 @@ def plusFive(x):
     print(x+5)
 
 #define function
-def madLib(place, adjective, name, noun_thing, dif_noun_thing, Action_verb, name_two):
-    print(place + "food is" + adjective + ". Hey" + name + ", Whats your favorite" + noun_thing + ". I like that too, but " + dif_noun_thing + "is better. " + "I like to" + Action_verb + "on the beach." + name_two + "moved away last week")
-
+def madLib( Place, adjective, name, noun_thing, dif_noun_thing, Action_verb, name_two, Fruit, Adjective_Two, Proper_noun):
+    print(Place + "food is" + adjective + ". Hey" + name + ", Whats your favorite" + noun_thing + ". I like that too, but " + dif_noun_thing + "is better. " + "I like to" + Action_verb + "on the beach." + name_two + "moved away last week." + Fruit + "taste really" + Adjective_Two + "but I love" + Proper_noun + "More")
 
 #run madlib
-madLib()
+madLib( applebees,bad,Andrew,backpack,apple,run,Ryan,Pineapple,Disgusting,valley_Park)
 
 
 #run functions
