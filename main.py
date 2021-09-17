@@ -77,7 +77,7 @@ def madLib( Place, adjective, name, noun_thing, dif_noun_thing, Action_verb, nam
     print(Place + "food is" + adjective + ". Hey" + name + ", Whats your favorite" + noun_thing + ". I like that too, but " + dif_noun_thing + "is better. " + "I like to" + Action_verb + "on the beach." + name_two + "moved away last week." + Fruit + "taste really" + Adjective_Two + "but I love" + Proper_noun + "More")
 
 #run madlib
-madLib( applebees,bad,Andrew,backpack,apple,run,Ryan,Pineapple,Disgusting,valley_Park)
+madLib( applebees, bad, Andrew, backpack, apple, run, Ryan, Pineapple, Disgusting, valley_Park)
 
 
 #run functions
