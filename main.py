@@ -83,7 +83,6 @@ madLib( "applebees", " bad", "Andrew", " backpack", "apple ", "run", "Ryan", " P
 #run functions
 timesTwo(30)
 plusFive(5)
-divideByTwo(50)
 #run function
 myNameIs("Ryan")
 
@@ -91,3 +90,8 @@ print("These Are My Top Five Movies")
 topFiveMovies()
 print("These are my Top Five Sports")
 topFiveSports()
+
+def myFunction():
+    print("Hello World")
+
+    print(myFunction)
