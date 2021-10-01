@@ -19,3 +19,15 @@ def lastLetter(w):
     return w[len(w)-1]
 
 print (lastLetter("apple"))
+
+
+def spellingBee(w):
+
+    x=0
+
+    while x < len(w):
+        print (w[x])
+
+print ((spellingBee(bee))
+
+   
