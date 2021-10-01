@@ -10,3 +10,12 @@ def function():
         count = 1
 
 function()
+
+myString = "potato"
+#           012345
+print(myString[2])
+
+def lastLetter(w):
+    return w[len(w)-1]
+
+print (lastLetter("apple"))
